@@ -40,7 +40,7 @@
         type: 'loop',
         perPage: 1,
         speed: 2000,
-        autoplay: true,
+        autoplay: false,
       }).mount()
     },
   }
