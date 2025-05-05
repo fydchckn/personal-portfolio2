@@ -3,7 +3,7 @@
 <Navigation :togglemnav="togglemnav"  @toggle-mobile="mobilenav"/>
 <transition name="mymobilenav">
   <Mobile_nav  :togglemnav="togglemnav"  v-if="togglemnav"/>
-  </transition>
+</transition>
 <Hero/>
 <Creative/>
 <Innovative/>
@@ -44,7 +44,7 @@ import Testimonial from './components/Testimonial.vue';
       },
       data(){
     return{
-      togglemnav: true,
+      togglemnav: false,
     }
   },
   methods: {

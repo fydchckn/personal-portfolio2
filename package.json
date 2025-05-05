@@ -12,6 +12,7 @@
     "@splidejs/splide": "^4.1.4",
     "@splidejs/vue-splide": "^0.6.12",
     "@tailwindcss/vite": "^4.1.1",
+    "aos": "^2.3.4",
     "tailwindcss": "^4.1.1",
     "vue": "^3.5.13"
   },

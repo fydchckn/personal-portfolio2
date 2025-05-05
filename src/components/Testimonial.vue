@@ -1,6 +1,6 @@
 <template>
   <section class="text-prim-text bg-secondary py-[112px]">
-    <div class="main-container">
+    <div class="main-container" data-aos="fade-up">
       <div class="mb-[80px]">
         <h2 class="font-medium text-[36px] md:text-[48px]">Client Feedback</h2>
         <p>

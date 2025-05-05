@@ -18,25 +18,31 @@
                             </select>
                         </li>
                         <li>
-                            <button class="btn-nav hover:border-transparent">Join</button>
+                            <button class="animated-button">
+                                <span>Join</span>
+                                <span></span>
+                            </button>
                         </li>
                         <li>
-                            <button class="btn-unique">Inquire</button>
+                            <button class="animated-button">
+                                <span>Inquire</span>
+                                <span></span>
+                            </button>
                         </li>
                     </ul>
                 </nav>
             </div>
             <div class="flex items-center md:hidden text-prim-text">
                 <div @click="btntoggle" class="fixed right-1 z-[9999999]">
-                        <svg v-if="!togglemnav" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-10">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                        </svg>
-                        <svg v-if="togglemnav" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-10">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-                        </svg>
+                    <svg v-if="!togglemnav" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-10">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                    <svg v-if="togglemnav" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-10">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
                 </div>
 
 
@@ -58,13 +64,13 @@ export default {
 </script>
 
 <style scoped>
-   .mobile-nav{
-        display: flex;
-    }
+.mobile-nav {
+    display: flex;
+}
 
-    @media (max-width:775px){
-        .mobile-nav{
-            display: none;
-        }
+@media (max-width:775px) {
+    .mobile-nav {
+        display: none;
     }
-</style>    
+}
+</style>
