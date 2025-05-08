@@ -49,7 +49,7 @@
     transform: translate(-50%, -50%); 
     background: rgba(0, 0, 0, 0.5); 
     backdrop-filter: blur(10px);    
-    z-index: 1000; 
+    z-index: 999999; 
     border-radius: 1em; 
     max-width: 600px; 
     width: 90%;         
@@ -74,6 +74,7 @@
     background:     rgba(0,0,0,0.5);
     width: 100%; 
     height: 100%;
+    z-index: 99999999;
     }
 
 

@@ -1,6 +1,6 @@
 <template>
   <section class="bg-color-bg py-[112px]">
-  <div class="main-container w-full" data-aos="fade-up">
+  <div class="main-container w-full z-0" data-aos="fade-up">
     <div class="text-prim-text space-y-1 mb-[80px] flex flex-col justify-center items-center text-center">
       <p>Technical Skills</p>
       <h2 class="text-[36px] md:text-[48px]">Full-Stack Developer Expertise</h2>
