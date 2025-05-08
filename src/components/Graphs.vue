@@ -38,7 +38,7 @@ export default {
           text: 'My Technical Stacks',
           color: 'white',
           font: {
-            size: 48,       // Font size in pixels
+            size: 36,       // Font size in pixels
             weight: 'bold'  // Can be 'normal', 'bold', 400, 700, etc.
           },
         }
