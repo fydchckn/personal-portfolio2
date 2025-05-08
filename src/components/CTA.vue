@@ -6,7 +6,7 @@
           Let’s Create Something Amazing
         </h2>
         <p class="mx-auto text-base">
-          Reach out to discuss your ideas and explore potential collaborations or job opportunities. </p>
+          Reach out to discuss your ideas and explore potential collaborations or job opportunities</p>
         <div class="flex justify-start gap-4 flex-wrap">
           <button class="animated-button">
             <span>Contact</span>
