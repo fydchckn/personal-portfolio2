@@ -10,7 +10,7 @@
                     </svg>
                     <h4 class="font-medium text-[24px] md:text-[32px]">Email</h4>
                     <p>Feel free to reach out for inquiries or collaborations.</p>
-                    <a href="#">hello@relume.io</a>
+                    <a href="#">kentpogi.io</a>
                 </div>
                 <div class="flex justify-center flex-col text-center items-center space-y-[24px]" data-aos="fade-up" data-aos-delay="200">
                     <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
