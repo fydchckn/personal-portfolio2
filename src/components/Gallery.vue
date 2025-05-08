@@ -39,7 +39,7 @@
       new Splide('.splide', {
         type: 'loop',
         perPage: 1,
-        speed: 2000,
+        speed: 3000,
         autoplay: false,
       }).mount()
     },

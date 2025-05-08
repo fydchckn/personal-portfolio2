@@ -7,6 +7,7 @@
 <Hero/>
 <Creative/>
 <Innovative/>
+<Graphs/>
 <Gallery/>
 <Testimonial/>
 <CTA/>
@@ -22,6 +23,7 @@ import Creative from './components/Creative.vue';
 import CTA from './components/CTA.vue';
 import MyFooter from './components/Footer.vue';
 import Gallery from './components/Gallery.vue';
+import Graphs from './components/Graphs.vue';
 import Hero from './components/Hero.vue';
 import Innovative from './components/Innovative.vue';
 import Mobile_nav from './components/Mobile_nav.vue';
@@ -35,6 +37,7 @@ import Testimonial from './components/Testimonial.vue';
         Hero,
         Creative,
         Innovative,
+        Graphs,
         Gallery,
         Testimonial,
         CTA,
